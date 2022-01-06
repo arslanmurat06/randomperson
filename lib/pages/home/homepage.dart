@@ -9,8 +9,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color.fromRGBO(
-            21, 48, 75, 1), //const Color.fromRGBO(239, 103, 63, 1),
+        backgroundColor: const Color.fromRGBO(21, 48, 75, 1),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,

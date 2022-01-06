@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:randomperson/features/cubit/user_cubit.dart';
 import 'package:randomperson/helper/service_locator.dart';
-import 'package:randomperson/pages/homepage.dart';
+import 'package:randomperson/pages/home/homepage.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {
