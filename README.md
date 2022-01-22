@@ -2,6 +2,7 @@
 
 - Bloc-Cubit for state management
 - Dio for http
+- get_it for dependency injection
 - Random person api used tp show data (https://randomuser.me)
 
 
