@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:randomperson/features/cubit/user_cubit.dart';
 import 'package:randomperson/models/user.dart';
+import 'dart:html' as html;
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -38,14 +39,19 @@ class HomePage extends StatelessWidget {
               ),
               fetchButton(context),
               const SizedBox(
-                height: 100,
+                height: 50,
               ),
+              TextButton(
+                  onPressed: () => html.window.open(
+                      'https://github.com/arslanmurat06/randomperson',
+                      "_blank"),
+                  child: const Text("Source")),
               const FittedBox(
                 child: Text(
                   "'\https://randomuser.me'\ api used to fetch random people",
                   style: TextStyle(color: Colors.white60),
                 ),
-              )
+              ),
             ],
           ),
         ));
